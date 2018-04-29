@@ -14,6 +14,8 @@ public class Main {
     static boolean aTrueBoolean = true;
     static boolean aFalseBoolean = false;
 
+    static String aString = "Hello DevColibri.com";
+    static char aChar = 'D';
 
 
     public static void main(String[] args) {
@@ -29,6 +31,9 @@ public class Main {
         System.out.println("aMaxDouble = "+aMaxDouble);
         System.out.println("aTrueBoolean = "+aTrueBoolean);
         System.out.println("aFalseBoolean = "+aFalseBoolean);
+        System.out.println("aString = "+aString);
+        System.out.println("aChar = "+aChar);
+
 
     }
 }
