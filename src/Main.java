@@ -20,20 +20,27 @@ public class Main {
 
     public static void main(String[] args) {
 
-        System.out.println("Hello Devcolibry and Git");
-        System.out.println("aByte = "+aByte);
+    //  Это однострочный комментарий
+    //  System.out.println("Hello Devcolibry and Git");
+    //  System.out.println("aByte = "+aByte);
         System.out.println("aShort = "+aShort);
         System.out.println("aInt = "+aInt);
+
+    /*   Начало многострочного комментария
+
         System.out.println("aLong = "+aLong);
         System.out.println("aMinFloat = "+aMinFloat);
         System.out.println("aMaxFloat = "+aMaxFloat);
         System.out.println("aMinDouble = "+aMinDouble);
+
+
+         На следующей строчке конец многострочного комментария
+     */
+
         System.out.println("aMaxDouble = "+aMaxDouble);
         System.out.println("aTrueBoolean = "+aTrueBoolean);
         System.out.println("aFalseBoolean = "+aFalseBoolean);
         System.out.println("aString = "+aString);
         System.out.println("aChar = "+aChar);
-
-
     }
 }
