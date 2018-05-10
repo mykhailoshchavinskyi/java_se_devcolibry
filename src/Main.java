@@ -1,10 +1,14 @@
+import devcat.Cat;
+import devpeople.People;
+
 public class Main {
-
-    static final double PI = 3.14;
-
     public static void main(String[] args) {
-        System.out.println(PI);
-//        Если раскомментировать будет ошибка
-//        PI = 2*PI;
+        Cat aCat = new Cat(2,"Murzik","Polosatik");
+        People aPeople = new People(33,"Mikle", "Shchavinskyi", aCat);
+
+        System.out.println(aPeople);
+        aCat.say();
+        aPeople.getPeopleCat().say();
+
     }
 }
